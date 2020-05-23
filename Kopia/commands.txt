@@ -1,0 +1,46 @@
+46  git status
+   47  touch processes.txt
+   48  ps aux
+   49  touch copy.txt
+   50  cd copy.txt
+   51  cp processes.txt copy.txt 
+   52  cp copy.txt Kopia
+   53  cd Kopia
+   54  wc -l
+   55  wc Kopia
+   56  cd ..
+   57  wc Kopia
+   58  mv copy.txt Kopia
+   59  wc Kopia
+   60  cp processes.txt copy.txt
+   61  mv copy.txt Kopia
+   62  cd Kopia
+   63  wc
+   64  wc Kopia
+   65  cd ..
+   66  wc Kopia
+   67  wc copy.txt
+   68  cd Kopia
+   69  wc copy.txt
+   70* gedit 
+   71  gedit  copy.txt
+   72  cat copy.txt
+   73  grep /bin
+   74  less copy.txt
+   75  less copy txt
+   76  less copy.txt
+   77  grep /bin
+   78  grep -ril /bin 
+   79  cd copy.txt
+   80  grep ril /bin copy.txt
+   81  grep -ril /bin copy.txt
+   82  grep bin copy.txt
+   83  gedit copy.txt
+   84  history
+   85  tail
+   86  tail history
+   87  history tail
+   88  history tail -n 10
+   89  history | tail -n 10
+   90  history | tail -n 45
+
